@@ -27,9 +27,9 @@ if(location.protocol == 'http:') {
 
   </head>
   <body>
-<!--      <script>
+      <script>
        location.href="/main/";
-    </script> -->
+    </script>
    
     
     <div style="text-align: center"> 
