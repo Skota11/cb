@@ -1,0 +1,27 @@
+
+/*
+原色：#00d82c
+
+各季節の限定カラー
+
+クリスマスカラー：#27872d　背景色：#ffbaba イラスト　https://2.bp.blogspot.com/-C0tgnFFp_FM/UZYlZ5K5aZI/AAAAAAAATOc/vIvr0Dzm9_U/s800/christmas_tree.png
+お正月カラー：#73eaf4　＆鏡餅のイラストやのイラスト　https://1.bp.blogspot.com/-zdnOaQi3h1s/X8XMbEpFZBI/AAAAAAABciU/MFjj1MGczVQch4FfmMuRtlBGnczjVOBNgCNcBGAsYHQ/s737/osyougatsu_kagamimochi_2dan_kazari.png
+入学式シーズンカラー：#ff8b8b
+ハロウィーンカラー：#ffa12e
+*/
+.header,
+.gt,
+a,
+.sendButton,
+.a.plus {
+  border:none;
+  background-color:#ff8b8b;
+  
+}
+.gt:hover,
+a:hover,
+.sendButton:hover,
+.a.plus:hover {
+  border:none;
+  background-color:#00a606;
+}

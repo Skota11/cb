@@ -1,0 +1,303 @@
+/*All Settings*/
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@charset "utf-8";
+
+
+* {
+  font-family: "Noto Sans JP";
+ font-size: 100%;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+html {
+scroll-behavior: smooth;
+margin-left: 10px;
+margin-right: 10px;
+padding: 0;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+
+}
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.5%;
+  background-color: ;
+}
+
+.gotit {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 0.5%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+.gt {
+  display: inline-block;
+  margin: 0 0 0 auto;
+  background-color: rgba(50, 205, 50, 0.5);
+  border: none;
+}
+.header > a {
+  color: white;
+}
+.header > a:hover {
+  color: white;
+}
+.header > * {
+  display: inline;
+}
+.page {
+  margin: 2%;
+}
+.hdr {
+  color: white;
+}
+.hdr.logo {
+  font-size: 1.5rem;
+}
+.hdrspc {
+  margin: 1.5rem;
+}
+.c {
+  color: red;
+}
+.en {
+  text-align: center;
+}
+.num {
+  font-size: 1.3rem;
+  color: gray;
+}
+.mc {
+  width: 50%;
+}
+.flex {
+  display: flex;
+}
+.bolt {
+  color: gold;
+}
+.id {
+  font-size: 0.8rem;
+  color: gray;
+}
+.read {
+  background-color: transparent;
+}
+.logo {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+body {
+ /* text-align: left;*/
+}
+.text {
+ margin-left: 5%;
+}
+.section {
+}
+/*Post View Settings*/
+.postView {
+  width: 90%;
+  margin-top: 5%;
+}
+.post {
+  border-radius: 20px;
+  border: 1px solid gainsboro;
+  width: 100%;
+  overflow-x: auto;
+  padding: 2%;
+  background-color: white;
+}
+/*Form Settings*/
+.sendName,
+.sendBody {
+  margin: 0.1% 0;
+  padding: 0.5%;
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+  outline: none;
+  transition: 100ms;
+  width: 30rem;
+  background-color: whitesmoke;
+}
+.sendName:hover,
+.sendBody:hover {
+  border: 1px solid royalblue;
+  background-color: white;
+}
+.sendName:focus,
+.sendBody:focus {
+  border-color: royalblue;
+  outline: 3px solid rgba(0, 137, 255, 0.5);
+}
+.sendBody {
+  height: 10rem;
+  resize: none;
+}
+.img {
+  max-height: 100vh;
+  max-width: 100%;
+}
+select {
+  padding: 0.5%;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid gainsboro;
+}
+.sendButton,
+a,
+.a.plus {
+  margin: 1% 0;
+  padding: 0.5%;
+  border-radius: 3px;
+  background-color: limegreen;
+  border: 1px solid limegreen;
+  transition: 100ms;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.sendButton:hover,
+a:hover {
+  background-color: green;
+}
+.date {
+  font-size: 0.8rem;
+  color: gray;
+}
+.a {
+  border: none;
+  background-color: transparent;
+  color: blue;
+  /*font-size: 1.3rem;*/
+  font-weight: 900;
+  transition: 100ms;
+  margin: 0;
+  padding: 0;
+}
+.a:hover {
+  border: none;
+  background-color: transparent;
+  color: springgreen;
+}
+.a:active {
+  border: none;
+}
+.a.plus::before {
+  content: "<";
+}
+.none {
+  margin: -10%;
+  padding: -10%;
+}
+
+/* HOMEPAGE SETTINGS */
+
+.pro {
+  border-color: green;
+}
+
+.cool {
+  padding: 1%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin: 2%;
+  transition: 100ms;
+}
+.cool:hover {
+  border-color: black;
+}
+.cool > * {
+  color: gray;
+}
+
+.maker,
+.user {
+  font-size: 0.8rem;
+}
+
+.maker {
+  color: limegreen;
+}
+.maker::after {
+  color: gray;
+  content: "が作成したボード";
+}
+
+.user {
+  color: royalblue;
+}
+.user::after,
+.user::before {
+  color: gray;
+}
+.user::after {
+  content: "回投稿されています";
+}
+.user::before {
+  content: "現在";
+}
+
+.public {
+  color: blue;
+}
+.material-icons {
+  display: inline;
+}
+
+.rd {
+  background-color: crimson;
+  border: none;
+}
+.rd:hover {
+  background-color: pink;
+}
+.pic <?php require { width: 100%; }
+
+.news {
+  margin: 2%;
+  /*background-color:lightgray;*/
+}
+#loader_wrap {
+position: fixed;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100vw;
+height: 100vh;
+top: 0;
+background: #fff;
+}
+#contextmenu {
+font-size:100%;
+text-align: center;
+}
+ 
+#h-menu {
+text-align: left
+}
+/*#f {
+background-color: black;
+color:white;
+}*/
+#f>a {
+  text-decoration: underline;
+/*  text-decoration-color: white;
+*/
+}
+#news {
+background-color: lightgray;
+}
